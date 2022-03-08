@@ -1,4 +1,8 @@
-const NotesModel = require('./notesModel')
+/**
+ * @jest-environment jsdom
+ */
+
+const NotesModel = require('./notesModel');
 
 describe('NotesModel', () => {
   it('Should start with an empty array', () => {
